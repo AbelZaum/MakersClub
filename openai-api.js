@@ -2,7 +2,7 @@ export async function* streamOpenAI({
   model = 'gpt-4o',
   contents = [],
 } = {}) {
-  let response = await fetch("https://24de-177-73-142-42.ngrok-free.app/api/generate", { // Defina a URL correta
+  let response = await fetch("https://ef76-177-73-142-42.ngrok-free.app/api/generate", { // Defina a URL correta
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ model, contents })
